@@ -52,7 +52,7 @@ export function ApplyFormModal({ university }: ApplyFormModalProps) {
     <>
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
         <DialogTrigger asChild>
-          <Button className="flex-1 mr-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-semibold">
+          <Button className="flex-1 mr-2 cursor-pointer bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-semibold">
             Apply Now
           </Button>
         </DialogTrigger>
@@ -128,7 +128,7 @@ export function ApplyFormModal({ university }: ApplyFormModalProps) {
               </TabsTrigger>
               <TabsTrigger
                 value="apply-now"
-                className="py-3 px-2 data-[state=active]:bg-blue-50 data-[state=active]:text-blue-700 data-[state=active]:border-b-2 data-[state=active]:border-blue-600 rounded-none dark:data-[state=active]:bg-gray-700 dark:data-[state=active]:text-blue-300 text-xs sm:text-sm font-semibold"
+                className="py-3 px-2 cursor-pointer data-[state=active]:bg-blue-50 data-[state=active]:text-blue-700 data-[state=active]:border-b-2 data-[state=active]:border-blue-600 rounded-none dark:data-[state=active]:bg-gray-700 dark:data-[state=active]:text-blue-300 text-xs sm:text-sm font-semibold"
               >
                 Apply Now
               </TabsTrigger>

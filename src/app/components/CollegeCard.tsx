@@ -133,7 +133,7 @@ const CollegeCard: React.FC<CollegeCardProps> = ({ college }) => {
         <Button
           variant="outline"
           size="sm"
-          className="flex-1 border-blue-500 text-blue-600 hover:bg-blue-500 hover:text-white transition-all duration-300 font-medium text-xs sm:text-sm"
+          className="flex-1 cursor-pointer border-blue-500 text-blue-600 hover:bg-blue-500 hover:text-white transition-all duration-300 font-medium text-xs sm:text-sm"
           onClick={() => {
             if (college.prospectus_link) {
               window.open(college.prospectus_link, "_blank");
